@@ -8,6 +8,7 @@ import Menu from './componentes/Menu';
 import Principal from './componentes/Principal';
 import Transacao from './componentes/Transacao';
 
+
 export default function App() {
   const [saldo, setSaldo] = useState(1000);
   const [transacoes, setTransacoes] = useState([]);
