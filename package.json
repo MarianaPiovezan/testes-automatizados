@@ -16,6 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "format": "prettier --write \"src/**/*{.js,.jsx}\"",
+    "lint": "eslint \"src/**/*{.js,.jsx}\" --quiet",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
